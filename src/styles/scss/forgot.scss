@@ -1,0 +1,105 @@
+.forgot-page-container {
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-self: center;
+    .forgot-row {
+        height: 100vh;
+    }
+    .forgot-col-one {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
+
+        .sell-logo {
+            margin-top: 15%;
+        }
+
+        .form-footer {}
+    }
+    .forgot-col-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .forgot-form-container {
+        .sell-input {
+            background: #FFFFFF;
+            border-radius: 48px !important;
+            height: 56px;
+            border: 1px solid #8692A6;
+            border-radius: 6px;
+            font-size: 16px;
+            color: #171725;
+            padding: 10px;
+            box-shadow: none;
+            overflow: none;
+
+            &:hover,
+            &:focus {
+                border-color: #244F7A !important;
+            }
+        }
+        .login-btn {
+
+            &:hover,
+            &:focus {
+                background: linear-gradient(90deg, #FFD426 3.44%, #3CAF47 92.79%);
+            }
+        }
+        .cancel-btn {
+            border: 1px solid #244F7A;
+            filter: drop-shadow(0px 8px 16px rgba(27, 85, 177, 0.24));
+            border-radius: 38px;
+            font-weight: 700;
+            font-size: 15px;
+            color: #212B36;
+            background: transparent;
+             height: 48px;
+             margin-top: 20px;
+        }
+    }
+
+    .forgot-footer {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     margin-top: 30%;
+        .apple {
+            margin-left: 15px;
+        }
+
+        .scan {
+            position: absolute;
+            top: 0;
+            right: -25%;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: -0.01em;
+            color: #000000;
+        }
+
+        .loginArrow {
+            position: absolute;
+            top: -30%;
+            right: -6%;
+        }
+    }
+    h1 {
+       color: #212B36;
+        font-size: 25px;
+        font-weight: 700;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+    p{
+        font-weight: 400;
+font-size: 16px;
+color: #637381;
+    }
+    
+}
