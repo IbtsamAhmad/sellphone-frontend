@@ -1,0 +1,18 @@
+@import url("./assets/fonts/font.scss");
+@import url("./styles/scss/styles.scss");
+@import url("./styles/scss/navbar.scss");
+@import url("./styles/scss/detail.scss");
+@import url("./styles/scss/login.scss");
+@import url("./styles/scss/signup.scss");
+@import url("./styles/scss/forgot.scss");
+@import url("./styles/scss/post.scss");
+@import url("./styles/scss/responsive.scss");
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  // overflow: hidden;
+}
